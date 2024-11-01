@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="auth.js"></script>
+</head>
+<body onload="loadDashboard()">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h2 class="mt-4">Selamat Datang, <span id="usernameDisplay"></span>!</h2>
+    <h3 class="mt-4">Fitur-Fitur Kampus</h3>
+    <div class="list-group mt-3">
+        <a href="#" class="list-group-item list-group-item-action">1. Informasi Akademik</a>
+        <a href="#" class="list-group-item list-group-item-action">2. Jadwal Kuliah</a>
+        <a href="#" class="list-group-item list-group-item-action">3. Pengumuman</a>
+        <a href="#" class="list-group-item list-group-item-action">4. Ruang Diskusi Online</a>
+        <a href="#" class="list-group-item list-group-item-action">5. Pendaftaran Kegiatan</a>
+        <a href="#" class="list-group-item list-group-item-action">6. Konsultasi Dosen</a>
+    </div>
+</div>
+
+</body>
+</html>
